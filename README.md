@@ -1,14 +1,16 @@
 # Construction Automation Tool
 
-أداة أتمتة هندسية بلغة Python مصممة لحساب كميات الخرسانة وتقدير التكاليف للمشاريع الإنشائية بدقة وسرعة.
+A professional Python-based engineering tool designed to automate concrete quantity take-offs and cost estimation for construction projects.
 
-## المميزات:
-- حساب دقيق لحجم الخرسانة بناءً على الأبعاد (Length, Width, Depth).
-- تقدير التكلفة المالية تلقائياً.
-- تصدير التقارير بصيغة CSV لسهولة التحليل والتوثيق.
+## Key Features:
+- **Precise Calculations:** Calculates concrete volume based on specific dimensions (Length, Width, Depth).
+- **Automated Costing:** Estimates total project costs based on unit prices.
+- **Data Reporting:** Exports comprehensive project reports in CSV format for easy documentation and analysis.
 
-## كيف تستخدم الكود:
-1. تأكد من تثبيت مكتبة pandas: `pip install pandas`
-2. قم بتشغيل الملف: `python estimator.py`
-3. سيتم إنشاء ملف تقرير بصيغة CSV يحتوي على كافة الحسابات.
+## How to use:
+1. Ensure you have `pandas` installed: 
+   `pip install pandas`
+2. Run the script: 
+   `python estimator.py`
+3. The tool will automatically generate a project report file.
 ٤.
