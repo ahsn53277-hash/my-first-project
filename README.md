@@ -1,16 +1,19 @@
-# Construction Automation Tool
+# Construction Engineering Suite
 
-A professional Python-based engineering tool designed to automate concrete quantity take-offs and cost estimation for construction projects.
+A comprehensive toolkit for construction project management, covering quantity surveying and data analysis.
 
-## Key Features:
-- **Precise Calculations:** Calculates concrete volume based on specific dimensions (Length, Width, Depth).
-- **Automated Costing:** Estimates total project costs based on unit prices.
-- **Data Reporting:** Exports comprehensive project reports in CSV format for easy documentation and analysis.
+## Tools Included:
+
+### 1. Estimation Tool (`estimator.py`)
+- Automates concrete volume and cost calculations based on dimensions.
+- Ideal for quick quantity take-offs.
+
+### 2. Data Analyzer (`analyzer.py`)
+- Processes material datasets to provide business insights.
+- Calculates total budgets and cost summaries automatically.
 
 ## How to use:
-1. Ensure you have `pandas` installed: 
-   `pip install pandas`
-2. Run the script: 
-   `python estimator.py`
-3. The tool will automatically generate a project report file.
+1. Ensure `pandas` is installed: `pip install pandas`
+2. To estimate: `python estimator.py`
+3. To analyze data: `python analyzer.py`
 ٤.
